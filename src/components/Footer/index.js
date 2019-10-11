@@ -12,10 +12,7 @@ function Footer({ siteTitle }) {
 		<footer id="footer" class="footer">
 			<div class="content has-text-centered">
 				<p>
-					<strong>@Konferencja Wiśniowej</strong> by{" "}
-					<a href="https://jgthms.com">Borowy Alan</a>. This page is open
-					source:{" "}
-					<a href="https://github.com/borowyalan/wisniowasu-gatsby">GitHub</a>.
+					<strong>@Konferencja Wiśniowej</strong>
 				</p>
 			</div>
 		</footer>
