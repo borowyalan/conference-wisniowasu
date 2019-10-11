@@ -30,23 +30,26 @@
 				margin-left: 2rem;
 
 
-				.is-active {
-					position: absolute;
-					width: 95%;
-
-					margin-left: 1rem;
-					padding: 1rem;
-
-					border: rgba(218, 77, 77, 0.425) 2px solid;
-					border-radius: 6px;
-
-					transition: all 0.6s ease 0s;
-				}
 
 				.navbar-start>.navbar-item {
 					font-size: 1.5rem;
 				}
+
 			}
+
+			.navbar-menu.is-active {
+				position: absolute;
+				width: 95%;
+
+				margin-left: 1rem;
+				padding: 1rem;
+
+				// border: rgba(218, 77, 77, 0.425) 2px solid;
+				border-radius: 6px;
+				box-shadow: -5px 10px 30px 0px rgba(0, 0, 0, 0.3);
+				transition: all 0.6s ease 0s;
+			}
+
 		}
 	}
 }
