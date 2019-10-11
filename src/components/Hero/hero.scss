@@ -1,0 +1,9 @@
+@import "~bulma/bulma.sass";
+
+#hero.section {
+	min-height: 81vh;
+
+	.hero {
+		width: 90%;
+	}
+}
