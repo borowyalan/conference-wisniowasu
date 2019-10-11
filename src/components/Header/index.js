@@ -1,5 +1,6 @@
 import PropTypes from "prop-types"
 import React, { useState } from "react"
+import { Link } from "gatsby"
 import logo from "../../images/logo.png"
 
 import "../../pages/mystyles.scss"
@@ -31,12 +32,12 @@ function Header({ siteTitle }) {
 						</div>
 						<div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
 							<div className="navbar-start">
-								<a href="" className="navbar-item">
+								<Link to="/about" className="navbar-item">
 									About
-								</a>
-								<a href="" className="navbar-item">
+								</Link>
+								<Link to="/faq" className="navbar-item">
 									FAQ
-								</a>
+								</Link>
 							</div>
 						</div>
 					</nav>
