@@ -9,7 +9,7 @@ import "./header.css"
 function Header({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)
 	return (
-		<section className="section">
+		<section id="header" className="section">
 			<div className="container">
 				<header className="header">
 					<nav className="navbar">
