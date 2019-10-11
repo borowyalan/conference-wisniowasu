@@ -16,9 +16,11 @@ export default function index() {
 								<button className="button is-primary heroButton">
 									Dowiedz się więcej
 								</button>
-								<button className="is-hidden-desktop">asdf</button>
 							</div>
 						</div>
+					</div>
+					<div className="column is-half has-text-centered padding-2">
+						<a className="is-hidden-desktop scrollButton">arrow to scroll</a>
 					</div>
 				</div>
 			</div>
