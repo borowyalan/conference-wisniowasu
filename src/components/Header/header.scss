@@ -1,0 +1,52 @@
+@import "~bulma/bulma.sass";
+
+#header.section {
+	padding: 0;
+
+	.header {
+		min-height: 20vh;
+		padding: 2rem 1rem;
+
+		.navbar {
+			background-color: transparent;
+
+			.navbar-brand {
+				align-items: center;
+
+				.navbar-item>img {
+					max-height: 5rem;
+					margin-bottom: 0;
+				}
+
+				.burger {
+					color: rgb(255, 255, 255);
+					background-color: rgb(27, 20, 40);
+					opacity: 0.6;
+					border-radius: 4px;
+				}
+			}
+
+			.navbar-menu {
+				margin-left: 2rem;
+
+
+				.is-active {
+					position: absolute;
+					width: 95%;
+
+					margin-left: 1rem;
+					padding: 1rem;
+
+					border: rgba(218, 77, 77, 0.425) 2px solid;
+					border-radius: 6px;
+
+					transition: all 0.6s ease 0s;
+				}
+
+				.navbar-start>.navbar-item {
+					font-size: 1.5rem;
+				}
+			}
+		}
+	}
+}

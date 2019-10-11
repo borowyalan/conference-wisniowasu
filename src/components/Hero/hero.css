@@ -1,3 +1,14 @@
 #hero.section {
 	min-height: 81vh;
 }
+
+.hero {
+	width: 90%;
+}
+
+.hero-body {
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* min-height: 60vh; */
+	/* justify-content: space-evenly; */
+}

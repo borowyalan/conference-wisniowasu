@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import logo from "../../images/logo.png"
 
 import "../../pages/mystyles.scss"
-import "./header.css"
+import "./header.scss"
 
 function Header({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)

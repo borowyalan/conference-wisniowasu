@@ -16,6 +16,7 @@ export default function index() {
 								<button className="button is-primary heroButton">
 									Dowiedz się więcej
 								</button>
+								<button className="is-hidden-desktop">asdf</button>
 							</div>
 						</div>
 					</div>
