@@ -32,8 +32,8 @@ function Header({ siteTitle }) {
 						</div>
 						<div className={`navbar-menu ${isActive ? "is-active" : ""}`}>
 							<div className="navbar-start">
-								<Link to="/about" className="navbar-item">
-									About
+								<Link to="/o-nas" className="navbar-item">
+									O nas
 								</Link>
 								<Link to="/faq" className="navbar-item">
 									FAQ
