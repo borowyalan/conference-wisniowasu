@@ -1,39 +1,9 @@
 @import "~bulma/sass/utilities/mixins.sass";
 
 #hero.section {
-	height: 81vh;
+	min-height: 81vh;
 
 	.hero {
 		width: 90%;
-
-		.button {
-			@include desktop {
-				padding: 1rem 4rem;
-			}
-
-		}
-
-
-	}
-
-	.container,
-	.columns {
-		height: 100%;
-	}
-
-	.columns {
-		display: flex;
-		flex-direction: column;
-
-		.column:nth-child(2) {
-			// justify-self: flex-end;
-			max-height: 20vh;
-		}
-	}
-
-	.icon {
-		font-size: 68px;
-		cursor: pointer;
-		color: #800000;
 	}
 }
