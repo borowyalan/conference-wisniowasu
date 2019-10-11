@@ -4,12 +4,6 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons"
 
 import "../../pages/mystyles.scss"
 import "./about.scss"
-import {
-	FaBeer,
-	FaGraduationCap,
-	FaBookReader,
-	FaLightbulb,
-} from "react-icons/fa"
 
 export default function About() {
 	return (
