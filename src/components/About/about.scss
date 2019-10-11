@@ -1,0 +1,23 @@
+#about {
+
+	margin-bottom: 5rem;
+
+	h2 {
+		margin-bottom: 3em;
+	}
+
+	.box {
+		box-shadow: none;
+	}
+
+	.content>.title,
+	p {
+		margin-bottom: 0.50rem;
+	}
+
+	.media-left {
+		font-size: 68px;
+		color: gray;
+		margin-right: 2rem;
+	}
+}
