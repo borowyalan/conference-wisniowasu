@@ -7,6 +7,20 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	font-family: "Varela Round", sans-serif;
+}
+
+.wrapper {
+	background-image: url("../images/bg.png");
+	background-repeat: no-repeat;
+	background-size: 53%;
+	background-position: right top;
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		background-size: 70%;
+	}
 }
 
 article,
