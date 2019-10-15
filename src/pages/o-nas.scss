@@ -3,6 +3,10 @@
 #about,
 #faq {
 
+	h1 {
+		margin-bottom: 3rem;
+	}
+
 	padding-left: 2rem;
 
 	@include from($desktop) {
@@ -24,9 +28,7 @@
 }
 
 #faq {
-	h1 {
-		margin-bottom: 3rem;
-	}
+
 
 	.faq-section {
 		margin-bottom: 3rem;
