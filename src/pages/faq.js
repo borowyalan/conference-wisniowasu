@@ -1,18 +1,60 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import LayoutSubpages from "../components/layoutSubpages"
 import SEO from "../components/seo"
 
+import "./mystyles.scss"
+import "./o-nas.scss"
+
 const FAQPage = () => (
-	<Layout>
-		<SEO title="Frequenly Asked Questions" />
-		<section className="section">
+	<LayoutSubpages>
+		<SEO title="O nas" />
+		<div id="faq" className="section">
 			<div className="container">
-				<h2 className="title has-text-centered">Hi from the FAQ</h2>
-				<p>Welcome to FAQ</p>
+				<div className="coontainer titleContainer">
+					<div className="columns">
+						<div className="column is-three-fifths">
+							<h1>FAQ</h1>
+							<div className="faq-section">
+								<h3>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</h3>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</p>
+							</div>
+							<div className="faq-section">
+								<h3>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</h3>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</p>
+							</div>
+							<div className="faq-section">
+								<h3>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</h3>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+									Officiis atque officia culpa natus voluptatibus?
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div className="columns">
+					<div className="column is-half"></div>
+				</div>
 			</div>
-		</section>
-	</Layout>
+		</div>
+	</LayoutSubpages>
 )
 
 export default FAQPage

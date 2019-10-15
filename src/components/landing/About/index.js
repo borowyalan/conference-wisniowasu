@@ -2,7 +2,7 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCoffee } from "@fortawesome/free-solid-svg-icons"
 
-import "../../pages/mystyles.scss"
+import "../../../pages/mystyles.scss"
 import "./about.scss"
 import {
 	FaBeer,

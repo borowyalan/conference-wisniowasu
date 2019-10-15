@@ -13,28 +13,18 @@ import Header from "./Header"
 import Footer from "./Footer"
 import "./layout.scss"
 
-const Layout = ({ children }) => {
-	const data = useStaticQuery(graphql`
-		query SiteTitleQuery {
-			site {
-				siteMetadata {
-					title
-				}
-			}
-		}
-	`)
-
+const LayoutSubpages = ({ children }) => {
 	return (
-		<div className="wrapper">
-			<Header siteTitle={data.site.siteMetadata.title} />
+		<div className="wrapper--subpages">
+			<Header siteTitle={""} />
 			<main>{children}</main>
 			<Footer />
 		</div>
 	)
 }
 
-Layout.propTypes = {
+LayoutSubpages.propTypes = {
 	children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutSubpages

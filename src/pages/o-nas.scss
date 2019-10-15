@@ -1,0 +1,38 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
+#about,
+#faq {
+
+	padding-left: 2rem;
+
+	@include from($desktop) {
+		padding-left: 4rem;
+		padding-top: 6rem;
+	}
+
+	.titleContainer {
+		position: relative;
+
+		// margin-top: 2rem;
+
+		p {}
+	}
+
+	.contentContainer {
+		margin-top: 1.5rem;
+	}
+}
+
+#faq {
+	h1 {
+		margin-bottom: 3rem;
+	}
+
+	.faq-section {
+		margin-bottom: 3rem;
+
+		@include from($desktop) {
+			margin-bottom: 4rem;
+		}
+	}
+}
