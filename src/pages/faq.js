@@ -4,7 +4,7 @@ import LayoutSubpages from "../components/layoutSubpages"
 import SEO from "../components/seo"
 
 import "./mystyles.scss"
-import "./o-nas.scss"
+import "./subpages.scss"
 
 const FAQPage = () => (
 	<LayoutSubpages>
