@@ -12,14 +12,14 @@ body {
 }
 
 .wrapper {
-	background-image: url("../images/bg.png");
+	background-image: url("../images/bg.svg");
 	background-repeat: no-repeat;
-	background-size: 53%;
+	background-size: 55%;
 	background-position: right top;
 
 	&--subpages {
 		@extend .wrapper;
-		background-size: 35%
+		background-size: 40%
 	}
 
 	@media screen and (max-width: 768px) {
