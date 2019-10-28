@@ -14,9 +14,9 @@ function Header({ siteTitle }) {
 				<header className="header">
 					<nav className="navbar">
 						<div className="navbar-brand">
-							<a className="navbar-item" href="/">
+							<Link className="navbar-item" to="/">
 								<img src={logo} alt="Conferention logo" />
-							</a>
+							</Link>
 							<a
 								className={`navbar-burger burger ${
 									isActive ? "is-active" : ""
