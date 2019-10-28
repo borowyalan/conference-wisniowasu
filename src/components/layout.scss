@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
 html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
@@ -17,27 +19,13 @@ body {
 	background-size: 55%;
 	background-position: right top;
 
+	@include mobile {
+		background-size: 65%;
+	}
+
 	&--subpages {
 		@extend .wrapper;
-		background-size: 40%
-	}
-
-	@media screen and (max-width: 768px) {
-		.wrapper {
-			background-size: 60%;
-
-
-		}
-
-		&--subpages {
-			background-size: 30%;
-		}
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.wrapper {
-		background-size: 60%;
+		background-size: 40%;
 	}
 }
 
@@ -622,13 +610,13 @@ ul li {
 	padding-left: 0;
 }
 
-li>ol {
+li > ol {
 	margin-left: 1.45rem;
 	margin-bottom: calc(1.45rem / 2);
 	margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
 	margin-left: 1.45rem;
 	margin-bottom: calc(1.45rem / 2);
 	margin-top: calc(1.45rem / 2);
@@ -646,7 +634,7 @@ p *:last-child {
 	margin-bottom: 0;
 }
 
-li>p {
+li > p {
 	margin-bottom: calc(1.45rem / 2);
 }
 
