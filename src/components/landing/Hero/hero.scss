@@ -4,12 +4,16 @@
 #hero.section {
 	height: 78vh;
 
+	@include touch {
+		height: 78vmax;
+	}
+
 	.hero {
 		width: 90%;
 
 		.button {
 			@include from($desktop) {
-				// padding: 1rem 4rem;
+				padding: 1rem 4rem;
 			}
 		}
 
@@ -23,6 +27,9 @@
 				// background-color: red;
 			}
 
+			button {
+				color: white;
+			}
 		}
 	}
 
