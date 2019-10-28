@@ -10,7 +10,7 @@ function Footer({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)
 	return (
 		<footer id="footer" class="footer">
-			<div class="content has-text-centered">
+			<div class="content">
 				<p>
 					<strong>@Konferencja Wiśniowej</strong>
 				</p>
