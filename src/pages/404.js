@@ -1,14 +1,19 @@
 import React from "react"
 
-import Layout from "../components/layout"
+import LayoutSubpages from "../components/layoutSubpages"
 import SEO from "../components/seo"
 
+import "./mystyles.scss"
+import "./o-nas.scss"
+
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+	<LayoutSubpages>
+		<SEO title="404: Not found" />
+		<section id="error">
+			<h1>:(</h1>
+			<p>Nie znależliśmy takiej strony.</p>
+		</section>
+	</LayoutSubpages>
 )
 
 export default NotFoundPage
