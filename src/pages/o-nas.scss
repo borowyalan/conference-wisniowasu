@@ -10,8 +10,17 @@
 		margin-bottom: 3rem;
 	}
 
+	h3 {
+		max-width: 50ch;
+	}
+
+	p {
+		max-width: 60ch;
+	}
+
+
 	@include from($desktop) {
-		padding-left: 4rem;
+		padding-left: 5rem;
 		padding-top: 5rem;
 	}
 
