@@ -19,13 +19,22 @@ body {
 	background-size: 55%;
 	background-position: right top;
 
-	@include mobile {
-		background-size: 65%;
+	@include desktop {
+		background-size: 55%;
 	}
 
 	&--subpages {
 		@extend .wrapper;
-		background-size: 40%;
+		
+		@include desktop {
+			background-size: 40%;
+		} 
+
+
+
+		main {
+			min-height: 70vh;
+		}
 	}
 }
 

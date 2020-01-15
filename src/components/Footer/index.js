@@ -19,12 +19,4 @@ function Footer({ siteTitle }) {
 	)
 }
 
-Footer.propTypes = {
-	siteTitle: PropTypes.string,
-}
-
-Footer.defaultProps = {
-	siteTitle: ``,
-}
-
 export default Footer

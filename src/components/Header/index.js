@@ -35,8 +35,17 @@ function Header({ siteTitle }) {
 								<Link to="/o-nas" className="navbar-item">
 									O nas
 								</Link>
-								<Link to="/faq" className="navbar-item">
+								{/* <Link to="/faq" className="navbar-item">
 									FAQ
+								</Link> */}
+								<Link to="/program" className="navbar-item">
+									Program
+								</Link>
+								<Link to="/galeria" className="navbar-item">
+									Galeria
+								</Link>
+								<Link to="/kontakt" className="navbar-item">
+									Kontakt
 								</Link>
 							</div>
 						</div>
