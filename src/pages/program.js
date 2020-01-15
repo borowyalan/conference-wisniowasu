@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import "./mystyles.scss"
 import "./subpages.scss"
 
-const FAQPage = () => (
+const program = () => (
 	<LayoutSubpages>
 		<SEO title="O nas" />
 		<div id="faq" className="section">
@@ -66,4 +66,4 @@ const FAQPage = () => (
 	</LayoutSubpages>
 )
 
-export default FAQPage
+export default program
