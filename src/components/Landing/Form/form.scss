@@ -1,0 +1,29 @@
+section#form {
+
+	padding-top: 0;
+	margin-top: -2em;
+
+	form {
+		// padding: 5em 10em 0 10em;
+		margin: auto;
+		width: 90%;
+
+		.control {
+			display: flex;
+			justify-content: flex-end;
+		}
+
+		#submit {
+			margin-top: 1em;
+			justify-self: end;
+		}
+
+		fieldset {
+			padding: 1.5em;
+
+			legend {
+				font-size: 2em;
+			}
+		}
+	}
+}

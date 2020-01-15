@@ -1,0 +1,36 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
+#about {
+
+	margin-bottom: 5rem;
+
+	h2 {
+		margin-bottom: 2em;
+	}
+
+	.title {
+		font-size: 1.9em;
+		// padding-bottom: 1em;
+		// min-height: 2em;
+	}
+
+	.box {
+		margin-bottom: 1em;
+		
+		@include from($desktop) {
+			height: 17em;
+			padding: 2em;
+		}
+	}
+
+	.content>.title,
+	p {
+		margin-bottom: 0.50rem;
+	}
+
+	.media-left {
+		font-size: 48px;
+		color: #F86767;
+		margin-right: 2rem;
+	}
+}
