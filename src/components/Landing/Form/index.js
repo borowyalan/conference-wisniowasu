@@ -8,9 +8,36 @@ import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { FaUser } from "react-icons/fa"
 
 export default function index() {
+	const handleSubmit = e => {
+		e.preventDefault()
+		let form = {
+			name,
+			email,
+			title,
+			message,
+		}
+
+		form.name = e.target.name.value
+		form.email = e.target.email.value
+		form.title = e.target.title.value
+		form.message = e.target.message.value
+
+		fetch("https://api.wisniowasu.pl/mailer/sendmail", {
+			method: "post",
+			body: JSON.stringify(form),
+		})
+			// .then(json)
+			.then(data => console.log(data))
+	}
+
 	return (
 		<section id="form" className="section">
-			<form class="form-horizontal">
+			<form
+				class="form-horizontal"
+				onSubmit={handleSubmit}
+				// action="https://api.wisniowa.su.pl/sendmail"
+				// method="GET"
+			>
 				<fieldset class="box">
 					<legend>Kontakt</legend>
 
@@ -47,7 +74,7 @@ export default function index() {
 								name="name"
 								type="text"
 								placeholder="Jan Kowalski"
-								class="input "
+								class="input"
 								required=""
 							/>
 							<span class="icon is-small is-left">
@@ -69,7 +96,7 @@ export default function index() {
 								name="email"
 								type="text"
 								placeholder="jankowalski@yahoo.com"
-								class="input "
+								class="input"
 								required=""
 							/>
 							<span class="icon is-small is-left">
@@ -80,14 +107,40 @@ export default function index() {
 						</div>
 					</div>
 
+					{/* Title */}
+					<i class="field">
+						<label class="label" for="title">
+							Tytuł wiadomości
+						</label>
+						<i class="control has-icons-left">
+							<input
+								id="title"
+								name="title"
+								type="text"
+								placeholder="jankowalski@yahoo.com"
+								class="input"
+								required=""
+							/>
+							<span class="icon is-small is-left">
+								<i>
+									<FontAwesomeIcon icon={faEnvelope} />
+								</i>
+							</span>
+						</i>
+					</i>
+
 					{/* Message */}
 					<div class="field">
 						<label class="label" for="message">
 							Wiadomość
 						</label>
 						<div class="control">
-							<textarea class="textarea" id="message" name="message" placeholder="...">
-							</textarea>
+							<textarea
+								class="textarea"
+								id="message"
+								name="message"
+								placeholder="..."
+							></textarea>
 						</div>
 					</div>
 
