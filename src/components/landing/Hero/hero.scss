@@ -12,6 +12,8 @@
 		width: 90%;
 
 		.button {
+			font-weight: bold;
+
 			@include from($desktop) {
 				padding: 1rem 4rem;
 			}
