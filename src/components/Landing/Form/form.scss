@@ -1,3 +1,5 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
 section#form {
 
 	padding-top: 0;
@@ -23,7 +25,12 @@ section#form {
 
 			legend {
 				font-size: 2em;
+				font-weight: bold;;
 			}
+		}
+
+		@include from($desktop) {
+			width: 40%;
 		}
 	}
 }
