@@ -19,7 +19,7 @@ body {
 	background-size: 55%;
 	background-position: right top;
 
-	@include desktop-only {
+	@include desktop {
 		background-size: 52%;
 	}
 
