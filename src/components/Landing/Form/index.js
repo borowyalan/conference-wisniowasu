@@ -15,7 +15,7 @@ export default function index() {
 					<legend>Kontakt</legend>
 
 					{/* Example */}
-					<div class="field">
+					{/* <div class="field">
 						<label class="label">Username</label>
 						<div class="control has-icons-left has-icons-right">
 							<input
@@ -34,7 +34,7 @@ export default function index() {
 							</span>
 						</div>
 						<p class="help is-success">This username is available</p>
-					</div>
+					</div> */}
 
 					{/* Name */}
 					<div class="field">
