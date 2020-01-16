@@ -12,7 +12,7 @@ export default function index() {
 		<section id="form" className="section">
 			<form class="form-horizontal">
 				<fieldset class="box">
-					<legend>Formularz kontaktowy</legend>
+					<legend>Kontakt</legend>
 
 					{/* Example */}
 					<div class="field">
