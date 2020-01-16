@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
-		title: ``,
-		description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+		title: `Konferencja Samorządności | Wiśniowa`,
+		description: 'Sprawdź co możemy zrobic wspólnymi siłamy na konferencji samorządnośći na Wiśniowej',
 		author: `@Borowy Alan`,
 	},
 	plugins: [
