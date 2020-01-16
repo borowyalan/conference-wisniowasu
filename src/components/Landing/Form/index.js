@@ -28,7 +28,7 @@ export default function index() {
 		fetch("https://api.wisniowasu.pl/mailer/sendmail", {
 			method: "post",
 			headers: {
-				"Content-type": "application/json",
+				"Content-Type": "application/json",
 			},
 			body: {"name":"2","email":"2","title":"2","message":"2"},
 		})
