@@ -45,7 +45,7 @@ export default function About() {
 									<div className="media-content">
 										<div className="content">
 											<h3 className="title is-3 is-size-4-mobile">
-												Od uczniów dla uczniów
+												Od uczniów dla uczniów.
 											</h3>
 											<p className="is-size-5 is-size-6-mobile">
 												chcemy aby dzięki takim inicjatywom, uczniowie
@@ -66,7 +66,7 @@ export default function About() {
 									<div className="media-content">
 										<div className="content">
 											<h3 className="title is-3 is-size-4-mobile">
-												Lorem ipsum
+												Poznajmy się.
 											</h3>
 											<p className="is-size-5 is-size-6-mobile">
 												jednym z powodów dla których zapraszamy was na Wiśniową,
