@@ -1,7 +1,7 @@
 @import "~bulma/sass/utilities/mixins";
 
 #footer {
-	padding: 1rem 2rem;
+	padding: 3rem 4rem;
 
 	@include desktop {
 		padding: 1.5rem 2rem;
@@ -16,6 +16,5 @@
 	.content {
 		display: flex;
 		justify-content: flex-end;
-
 	}
 }

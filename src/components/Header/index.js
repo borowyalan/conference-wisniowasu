@@ -35,12 +35,11 @@ function Header({ siteTitle }) {
 								<Link to="/o-nas" className="navbar-item">
 									O nas
 								</Link>
-								{/* <Link to="/faq" className="navbar-item">
-									FAQ
-								</Link> */}
 								<Link to="/program" className="navbar-item">
 									Program
 								</Link>
+							{/* </div> */}
+							{/* <div className="navbar-start"> */}
 								<Link to="/galeria" className="navbar-item">
 									Galeria
 								</Link>

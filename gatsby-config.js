@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Konferencja Samorządności | Wiśniowa`,
-		description: 'Sprawdź co możemy zrobic wspólnymi siłamy na konferencji samorządnośći na Wiśniowej',
+		description: 'Sprawdź co możemy zrobic wspólnymi siłamy na konferencji samorządności na Wiśniowej',
 		author: `@Borowy Alan`,
 	},
 	plugins: [

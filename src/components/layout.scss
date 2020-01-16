@@ -19,8 +19,8 @@ body {
 	background-size: 55%;
 	background-position: right top;
 
-	@include desktop {
-		background-size: 55%;
+	@include desktop-only {
+		background-size: 52%;
 	}
 
 	&--subpages {

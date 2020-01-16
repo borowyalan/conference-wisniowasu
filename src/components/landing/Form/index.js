@@ -22,16 +22,18 @@ export default function index() {
 		form.title = e.target.title.value
 		form.message = e.target.message.value
 
+		console.log(form)
 		console.log(JSON.stringify(form))
 
 		fetch("https://api.wisniowasu.pl/mailer/sendmail", {
 			method: "post",
 			headers: {
-				"Content-type": "application/json",
+				"Content-Type": "application/json",
 			},
 			body: JSON.stringify(form),
 		})
-			.then(json)
+			.then(json => console.log(json)
+			)
 			.then(data => console.log(data))
 	}
 

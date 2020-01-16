@@ -23,6 +23,12 @@ const Contact = () => (
 								{/* <p> julia.kiryluk@wisniowasu.pl</p> */}
 								{/* <h3>W budowie 🛠️</h3> */}
 								<article>
+									<a href="mailto:julia.kiryluk@wisniowasu.pl">
+										kontakt@wisniowasu.pl
+									</a>
+								</article>
+								<hr></hr>
+								<article>
 									<p>
 										Julia Kiryluk - Koordynatorka projektu, kontakt z podmiotami
 										zewnętrznymi
