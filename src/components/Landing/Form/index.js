@@ -30,7 +30,7 @@ export default function index() {
 			headers: {
 				"Content-Type": "application/json",
 			},
-			body: {"name":"2","email":"2","title":"2","message":"2"},
+			body: JSON.stringify(form),
 		})
 			.then(json => console.log(json)
 			)
