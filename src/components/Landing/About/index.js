@@ -6,6 +6,9 @@ import lightbulb_icon from "../../../images/lightbulb.svg"
 
 import "../../../pages/mystyles.scss"
 import "./about.scss"
+
+import Card from "./Card"
+
 export default function About() {
 	return (
 		<section className="section" id="about">
@@ -14,91 +17,29 @@ export default function About() {
 					<h2 className={`title is- has-text-centered`}>O konferencji:</h2>
 					<div className="columns is-multiline">
 						<div className="column is-half">
-							<div className="box">
-								<article className="media">
-									<div className="media-left">
-										{/* <FontAwesomeIcon icon={faCoffee} /> */}
-										<img src={coffee_icon} alt="" srcset="" />
-									</div>
-									<div className="media-content">
-										<div className="content">
-											<h3 className="title is-3 is-size-4-mobile">
-												Spotkajmy się by porozmawiać.
-											</h3>
-											<p className="is-size-5 is-size-6-mobile">
-												Przy kawie czy herbacie dobrze się rozmawia. To świetna
-												okazja do wymiany doświadczeń, odreagowania od szkolnej
-												codzienności czy naładowania życiowej baterii.
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
+							<Card title="Spotkajmy się by porozmawiać" icon={coffee_icon}>
+								Hello
+							</Card>
 						</div>
 						<div className="column is-half">
-							<div className="box">
-								<article className="media">
-									<div className="media-left">
-										{/* <FaGraduationCap size="1em" className="fa-fw" /> */}
-										<img src={handshake_icon} alt="" srcset="" />
-									</div>
-									<div className="media-content">
-										<div className="content">
-											<h3 className="title is-3 is-size-4-mobile">
-												Od uczniów dla uczniów.
-											</h3>
-											<p className="is-size-5 is-size-6-mobile">
-												chcemy aby dzięki takim inicjatywom, uczniowie
-												warszawskich szkół wpływali na otoczenie dookoła siebie
-												i zmieniali swoje szkoły na lepsze.
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
+							<Card title="Od uczniów dla uczniów" icon={handshake_icon}>
+								Chcemy aby dzięki takim inicjatywom, uczniowie warszawskich
+								szkół wpływali na otoczenie dookoła siebie i zmieniali swoje
+								szkoły na lepsze.
+							</Card>
 						</div>
 						<div className="column is-half">
-							<div className="box">
-								<article className="media">
-									<div className={`media-left fa-fw`}>
-										<img src={friendship_icon} alt="" srcset=""/>
-									</div>
-									<div className="media-content">
-										<div className="content">
-											<h3 className="title is-3 is-size-4-mobile">
-												Poznajmy się.
-											</h3>
-											<p className="is-size-5 is-size-6-mobile">
-												jednym z powodów dla których zapraszamy was na Wiśniową,
-												jest chęć umożliwienia nawiązania nowych wartościowych
-												znajomości.
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
+							<Card title="Poznajmy się" icon={friendship_icon}>
+								Jednym z powodów dla których zapraszamy was na Wiśniową, jest
+								chęć umożliwienia nawiązania nowych wartościowych znajomości.
+							</Card>
 						</div>
 						<div className="column is-half">
-							<div className="box">
-								<article className="media">
-									<div className={`media-left fa-fw`}>
-										{/* <FaLightbulb size="1em" className="fa-fw" /> */}
-										<img src={lightbulb_icon} alt="" srcset="" />
-									</div>
-									<div className="media-content">
-										<div className="content">
-											<h3 className="title is-3 is-size-4-mobile">
-												Lorem ipsum
-											</h3>
-											<p className="is-size-5 is-size-6-mobile">
-												W gronie aktywnych i kreatywnych łatwo wpada się na nowe
-												pomysły oraz znajduje motywacje oraz partnerów do ich
-												realizacji. Wymyślcie coś razem z nami!
-											</p>
-										</div>
-									</div>
-								</article>
-							</div>
+							<Card title="Burza mózgów" icon={lightbulb_icon}>
+								W gronie aktywnych i kreatywnych łatwo wpada się na nowe pomysły
+								oraz znajduje motywacje oraz partnerów do ich realizacji.
+								Wymyślcie coś razem z nami!
+							</Card>
 						</div>
 					</div>
 				</div>
