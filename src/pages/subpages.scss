@@ -37,7 +37,7 @@
 
 #about {
 	@include from($desktop) {
-		padding-left: 0rem;
+		padding-left: 1.5rem;
 		padding-top: 5rem;
 	}
 }
