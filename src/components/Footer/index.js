@@ -11,9 +11,52 @@ function Footer({ siteTitle }) {
 	return (
 		<footer id="footer" class="footer">
 			<div class="content">
-				<p>
-					<strong>@Konferencja Wiśniowej</strong>
-				</p>
+				<div className="columns">
+					<div className="column is-half">
+						<ul>
+							<li>
+								<a href="https://wisniowasu.pl">Samorząd Wiśniowa</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/wisniowa56/">Facebook</a>
+							</li>
+							<hr></hr>
+							<li>
+								Author: <a href="https://borowyalan.com">Borowy Alan</a>
+							</li>
+							<li>
+								Got any feedback? Contact me via:{" "}
+								<a href="mailto:borowyalan@gmail.com">borowyalan@gmail.com</a>
+							</li>
+						</ul>
+					</div>
+					<div className="column is-half second-column">
+						<ul>
+							<hr class="second-divider"></hr>
+							<li>
+								Icons made by{" "}
+								<a
+									href="https://www.flaticon.com/authors/freepik"
+									title="Freepik"
+								>
+									Freepik
+								</a>
+								{`, `}
+								<a
+									href="https://www.flaticon.com/authors/freepik"
+									title="Freepik"
+								>
+									Pixel Perfect
+								</a>{" "}
+								from{" "}
+								<a href="https://www.flaticon.com/" title="Flaticon">
+									{" "}
+									www.flaticon.com
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</footer>
 	)
