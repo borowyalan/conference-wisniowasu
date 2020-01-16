@@ -1,0 +1,17 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
+#program {
+
+	min-height: 50vh;
+	padding-left: 2rem;
+	padding-top: 6em;
+
+	h1 {
+		margin-bottom: 0.5em;
+	}
+	
+	h4 {
+		font-weight: 400;
+		margin-bottom: 3em;
+	}
+}
