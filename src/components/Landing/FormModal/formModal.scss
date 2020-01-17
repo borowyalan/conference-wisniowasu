@@ -1,0 +1,49 @@
+@import "~bulma/sass/utilities/mixins.sass";
+
+.modal-content {
+	width: 90vw;
+	display: flex;
+	// text-align: center;
+
+	@include from($tablet) {
+		width: 50vw;
+	}
+
+	@include from($desktop) {
+		width: 40vw;
+	}
+
+	.box {
+		display: flex;
+		flex-direction: row;
+		height: auto;
+		padding-bottom: 0;
+
+		.left {
+			padding-top: 0.5em;
+			width: 40%;
+		}
+
+		.right {
+			padding: 0.7em;
+			padding-left: 0.7em;
+
+			@include from($tablet) {
+				padding-top: 0;
+			}
+			padding-left: 2em;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			h2 {
+				margin-bottom: 0.5em;
+			}
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}

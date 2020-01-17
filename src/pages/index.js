@@ -6,16 +6,20 @@ import Hero from "../components/Landing/Hero"
 import About from "../components/Landing/About"
 import Form from "../components/Landing/Form"
 import Popup from "../components/Landing/Popup"
+import FormModal from "../components/Landing/FormModal"
+
+
 
 export default function IndexPage() {
-	const [isPopupOpen, changePopupState] = useState(false)
+	const [isModalOpen, changeModalState] = useState(false)
 	return (
 		<Layout>
 			<SEO title="Konferencja samorządności" />
 			<Hero></Hero>
 			<About></About>
-			<Form></Form>
-			{isPopupOpen ? <Popup changePopupState={changePopupState}></Popup> : ""}
+			<Form isModalOpen={changeModalState}></Form>
+			<FormModal changeModalState={changeModalState} isModalOpen={isModalOpen}></FormModal>
+			{/* {isPopupOpen ? <Popup changePopupState={changePopupState}></Popup> : ""} */}
 		</Layout>
 	)
 }

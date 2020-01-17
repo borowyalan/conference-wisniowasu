@@ -7,7 +7,7 @@ import { faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 import { FaUser } from "react-icons/fa"
 
-export default function index() {
+export default function index({ isModalOpen }) {
 	const handleSubmit = e => {
 		e.preventDefault()
 		let form = {
@@ -32,19 +32,13 @@ export default function index() {
 			},
 			body: JSON.stringify(form),
 		})
-			.then(json => console.log(json)
-			)
+			.then(json => console.log(json))
 			.then(data => console.log(data))
 	}
 
 	return (
 		<section id="form" className="section">
-			<form
-				class="form-horizontal"
-				onSubmit={handleSubmit}
-				// action="https://api.wisniowa.su.pl/sendmail"
-				// method="GET"
-			>
+			<form class="form-horizontal" onSubmit={handleSubmit}>
 				<fieldset class="box">
 					<legend>Kontakt</legend>
 
@@ -124,7 +118,7 @@ export default function index() {
 								id="title"
 								name="title"
 								type="text"
-								placeholder="jankowalski@yahoo.com"
+								placeholder="Tytuł"
 								class="input"
 								required=""
 							/>
@@ -155,7 +149,12 @@ export default function index() {
 					<div class="field">
 						<label class="label" for="submit"></label>
 						<div class="control">
-							<button id="submit" name="submit" class="button is-success">
+							<button
+								id="submit"
+								name="submit"
+								class="button is-success"
+								onClick={() => isModalOpen(true)}
+							>
 								Wyślij
 							</button>
 						</div>
