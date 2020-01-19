@@ -35,6 +35,32 @@
 				a {
 					opacity: 0.6;
 				}
+
+				&.poweredby
+				{
+					height: 60px;
+					
+					display: block;
+					position: relative;
+					span
+					{
+						display: block;
+						margin-bottom: 0px;
+					}
+					a {
+						img.logo
+						{
+							height: 40px;
+							filter: grayscale(1);
+							opacity: 0.6;
+							transition: opacity 0.2s ease-in-out;
+						}
+						img.logo:hover
+						{
+							opacity: 1;
+						}
+					}
+				}
 			}
 		}
 	}

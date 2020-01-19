@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import logo from "../../images/logo.png"
+import logo_title from "../../images/logo_title.png"
 
 import "../../pages/mystyles.scss"
 import "./footer.scss"
@@ -32,6 +33,12 @@ function Footer({ siteTitle }) {
 					</div>
 					<div className="column is-half second-column">
 						<ul>
+						<li class="poweredby">
+								<span>powered by</span>
+								<a href="https://wisniowasu.pl" target="_blank"><
+									img class="logo" src={logo_title}/>
+								</a>
+							</li>
 							<hr class="second-divider"></hr>
 							<li>
 								Icons made by{" "}
