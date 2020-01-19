@@ -13,7 +13,7 @@ export default function index() {
 								<h1 className="is-size-1 is-size-2-mobile">
 									Porozmawiajmy o&nbsp;aktywności szkolnej i&nbsp;edukacji.
 								</h1>
-								<h2 className="is-size-4-mobile">Konferencja samorządności.</h2>
+								<h2 className="is-size-4-mobile">Konferencja Samorządów Warszawskich</h2>
 								<Link
 									className="button is-primary is-large heroButton"
 									to="/o-nas"
