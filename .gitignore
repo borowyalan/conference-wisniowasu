@@ -70,3 +70,6 @@ yarn-error.log
 
 #design files
 design
+
+#Hosting files
+update.sh
