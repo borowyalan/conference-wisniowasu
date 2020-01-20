@@ -8,8 +8,6 @@ import Form from "../components/Landing/Form"
 import Popup from "../components/Landing/Popup"
 import FormModal from "../components/Landing/FormModal"
 
-
-
 export default function IndexPage() {
 	const [isModalOpen, changeModalState] = useState(false)
 	return (
@@ -18,10 +16,11 @@ export default function IndexPage() {
 			<Hero></Hero>
 			<About></About>
 			<Form isModalOpen={changeModalState}></Form>
-			<FormModal changeModalState={changeModalState} isModalOpen={isModalOpen}></FormModal>
+			<FormModal
+				changeModalState={changeModalState}
+				isModalOpen={isModalOpen}
+			></FormModal>
 			{/* {isPopupOpen ? <Popup changePopupState={changePopupState}></Popup> : ""} */}
 		</Layout>
 	)
 }
-
-// export default IndexPage

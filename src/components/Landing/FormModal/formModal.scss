@@ -3,7 +3,6 @@
 .modal-content {
 	width: 90vw;
 	display: flex;
-	// text-align: center;
 
 	@include from($tablet) {
 		width: 50vw;

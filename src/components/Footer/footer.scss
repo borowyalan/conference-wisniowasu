@@ -11,7 +11,6 @@
 	background-color: white;
 	font-size: 0.8em;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	// border-top: 1px solid rgba(128, 128, 128, 0.329);
 
 	.column {
 		padding: 0.2em 0;
@@ -36,27 +35,23 @@
 					opacity: 0.6;
 				}
 
-				&.poweredby
-				{
+				&.poweredby {
 					height: 60px;
-					
+
 					display: block;
 					position: relative;
-					span
-					{
+					span {
 						display: block;
 						margin-bottom: 0px;
 					}
 					a {
-						img.logo
-						{
+						img.logo {
 							height: 40px;
 							filter: grayscale(1);
 							opacity: 0.6;
 							transition: opacity 0.2s ease-in-out;
 						}
-						img.logo:hover
-						{
+						img.logo:hover {
 							opacity: 1;
 						}
 					}

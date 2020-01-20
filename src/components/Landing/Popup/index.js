@@ -14,8 +14,6 @@ export default function index({ changePopupState }) {
 			<iframe
 				id="ytplayer"
 				type="text/html"
-				// width="640"
-				// height="660"
 				src="https://www.youtube.com/embed/TIVrDtQWEqU?autoplay=0&origin=http://example.com"
 				frameborder="0"
 			></iframe>
