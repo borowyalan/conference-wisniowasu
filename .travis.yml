@@ -13,5 +13,5 @@ script:
 node_js:
 - node
 after_success:
- - echo gitara >> payload
- - jo build=%payload | curl -H "Content-Type:application/json" -X POST -d @- $HOOK
+ - tar -zcvf build.tar.gz public/
+ - jo build=%build.tar.gz | curl -H "Content-Type:application/json" -X POST -d @- $HOOK
