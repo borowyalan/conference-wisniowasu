@@ -3,8 +3,8 @@ cache: yarn
 before_install:
  - sudo apt-get install pngquant
 install:
- - npm install -g gatsby
+ - yarn install
 script:
- - npm run build
+ - yarn build
 node_js:
   - node

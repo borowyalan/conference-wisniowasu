@@ -18,7 +18,10 @@ export default function About() {
 					<div className="columns is-multiline">
 						<div className="column is-half">
 							<Card title="Spotkajmy się by porozmawiać" icon={coffee_icon}>
-								Hello
+								Spotkajmy się by porozmawiać - przy kawie czy herbacie dobrze
+								się rozmawia. To świetna okazja do wymiany doświadczeń,
+								odreagowania od szkolnej codzienności czy naładowania życiowej
+								baterii.
 							</Card>
 						</div>
 						<div className="column is-half">
