@@ -6,3 +6,5 @@
 <h1 align="center">
   🎓 Konferencja Samorządności 🎓
 </h1>
+[![Build Status](https://travis-ci.com/borowyalan/conference-wisniowasu.svg?branch=master)]
+(https://travis-ci.com/borowyalan/conference-wisniowasu)
