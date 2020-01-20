@@ -14,6 +14,7 @@ export default function index() {
 									Porozmawiajmy o&nbsp;aktywności szkolnej i&nbsp;edukacji.
 								</h1>
 								<h2 className="is-size-4-mobile">Konferencja Samorządów Warszawskich</h2>
+								<h3>04.03.2019 r.</h3>
 								<Link
 									className="button is-primary is-large heroButton"
 									to="/o-nas"

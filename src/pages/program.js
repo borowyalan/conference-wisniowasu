@@ -17,6 +17,7 @@ const program = () => (
 						<div className="column is-three-fifths">
 							<h1>Program konferencji Samorządów Warszawskich P.ASJE</h1>
 							<h4>(Porozmawiajmy o Aktywności Społecznej i Edukacji) :</h4>
+							<h3>04.03.2019 r.</h3>
 							<ul>
 								<li className="time">
 									<strong>9.00-9.30</strong> – Przywitanie gości, oficjalne
