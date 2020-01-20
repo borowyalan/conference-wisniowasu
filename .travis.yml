@@ -2,4 +2,4 @@ language: node_js
 before_install:
  - sudo apt-get install pngquant 
 node_js:
-  - 7
+  - node
