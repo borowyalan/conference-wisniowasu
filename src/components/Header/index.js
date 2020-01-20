@@ -38,8 +38,6 @@ function Header({ siteTitle }) {
 								<Link to="/program" className="navbar-item">
 									Program
 								</Link>
-							{/* </div> */}
-							{/* <div className="navbar-start"> */}
 								<Link to="/galeria" className="navbar-item">
 									Galeria
 								</Link>
