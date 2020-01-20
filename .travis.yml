@@ -1,5 +1,7 @@
 language: node_js
+cache: yarn
 before_install:
  - sudo apt-get install pngquant 
+ - npm install -g gatsby
 node_js:
   - node
