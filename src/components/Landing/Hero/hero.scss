@@ -1,0 +1,61 @@
+@import "~bulma/sass/utilities/mixins.sass";
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+
+#hero.section {
+	@include touch {
+		height: 78vmax;
+	}
+
+	.hero {
+		width: 90%;
+
+		.button {
+			font-weight: bold;
+
+			@include from($desktop) {
+				padding: 1rem 4rem;
+			}
+		}
+
+		.hero-body {
+			padding-top: 6rem;
+			padding-bottom: 2rem;
+			font-family: "Nunito", sans-serif;
+
+			@include desktop {
+				padding-top: 3rem;
+
+				// background-color: red;
+			}
+			
+			h2 {
+				margin-bottom: 0.6rem;
+			}
+
+			button {
+				color: white;
+			}
+		}
+	}
+
+	.container,
+	.columns {
+		height: 100%;
+	}
+
+	.columns {
+		display: flex;
+		flex-direction: column;
+
+		.column:nth-child(2) {
+			// justify-self: flex-end;
+			max-height: 20vh;
+		}
+	}
+
+	.icon {
+		font-size: 68px;
+		cursor: pointer;
+		color: #800000;
+	}
+}
