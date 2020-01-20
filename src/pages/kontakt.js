@@ -11,7 +11,7 @@ import "./kontakt.scss"
 
 const Contact = () => (
 	<LayoutSubpages>
-		<SEO title="O nas" />
+		<SEO title="Kontakt" />
 		<div id="contact" className="section">
 			<div className="container">
 				<div className="coontainer titleContainer">

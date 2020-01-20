@@ -16,7 +16,7 @@ function Footer({ siteTitle }) {
 					<div className="column is-half">
 						<ul>
 							<li>
-								<a href="https://wisniowasu.pl">Samorząd Wiśniowa</a>
+								<a href="https://wisniowasu.pl">Strona SU</a>
 							</li>
 							<li>
 								<a href="https://www.facebook.com/wisniowa56/">Facebook</a>

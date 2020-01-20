@@ -14,7 +14,7 @@ export default function IndexPage() {
 	const [isModalOpen, changeModalState] = useState(false)
 	return (
 		<Layout>
-			<SEO title="Konferencja samorządności" />
+			<SEO title="Strona główna" />
 			<Hero></Hero>
 			<About></About>
 			<Form isModalOpen={changeModalState}></Form>

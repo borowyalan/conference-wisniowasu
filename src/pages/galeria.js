@@ -8,7 +8,7 @@ import "./subpages.scss"
 
 const galeria = () => (
 	<LayoutSubpages>
-		<SEO title="O nas" />
+		<SEO title="Galeria" />
 		<div id="gallery" className="section">
 			<div className="container">
 				<div className="coontainer titleContainer">

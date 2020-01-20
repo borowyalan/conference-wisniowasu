@@ -11,7 +11,7 @@ export default function index() {
 						<div className="hero is-medium">
 							<div className="hero-body">
 								<h1 className="is-size-1 is-size-2-mobile">
-									Porozmawiajmy o&nbsp;aktywności szkolnej i&nbsp;edukacji.
+									Porozmawiajmy o&nbsp;aktywności społecznej i&nbsp;edukacji.
 								</h1>
 								<h2 className="is-size-4-mobile">Konferencja Samorządów Warszawskich</h2>
 								<Link

@@ -8,7 +8,7 @@ import "./subpages.scss"
 
 const FAQPage = () => (
 	<LayoutSubpages>
-		<SEO title="O nas" />
+		<SEO title="FAQ" />
 		<div id="faq" className="section">
 			<div className="container">
 				<div className="coontainer titleContainer">
