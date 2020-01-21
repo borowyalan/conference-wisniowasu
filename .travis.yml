@@ -14,9 +14,4 @@ script:
 node_js:
 - node
 after_success:
-<<<<<<< HEAD
- - cd public/ && tar -zcvf ../build.tar.gz . && cd - 
- - jo key=$KEY branch=$TRAVIS_BRANCH build=%build.tar.gz | curl -H "Content-Type:application/json" -X POST -d @- $HOOK
-=======
  - bash travis_build.sh
->>>>>>> development
