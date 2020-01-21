@@ -13,5 +13,6 @@ script:
  - yarn build
 node_js:
 - node
-after_success:
- - ./travis_build.sh
+deploy:
+  provider: script
+  script: bash travis_build.sh
