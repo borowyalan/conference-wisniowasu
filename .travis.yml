@@ -16,3 +16,7 @@ node_js:
 deploy:
   provider: script
   script: bash travis_build.sh
+  on:
+    branch: 
+      - master
+      - development
