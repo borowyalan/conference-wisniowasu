@@ -63,6 +63,7 @@
 
 				.navbar-start > .navbar-item {
 					font-size: 1.5rem;
+					transition: font-size 0.1s ease-in-out;
 
 					@include desktop-only {
 						min-width: 12vw;
@@ -75,7 +76,6 @@
 					&:hover {
 						font-size: 1.6em;
 						background-color: none;
-						transition: font-size 0.2s ease-in-out;
 					}
 				}
 			}
