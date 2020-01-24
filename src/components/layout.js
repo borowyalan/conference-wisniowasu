@@ -13,6 +13,9 @@ import Header from "./Header"
 import Footer from "./Footer"
 import "./layout.scss"
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-156094275-2');
+
 const Layout = ({ children }) => {
 	const data = useStaticQuery(graphql`
 		query SiteTitleQuery {
