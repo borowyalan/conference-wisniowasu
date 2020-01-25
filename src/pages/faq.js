@@ -14,38 +14,43 @@ const FAQPage = () => (
 				<div className="coontainer titleContainer">
 					<div className="columns">
 						<div className="column is-three-fifths">
-							<h1>O nas:</h1>
+							<h1>FAQ</h1>
 							<div className="faq-section">
-								<h3>Kim jesteśmy?</h3>
+								<h3>Jak wygląda rejestracja? Czy jest płatna?</h3>
 								<p>
-									Niektórzy znają się od dawna, niektórzy poznali się
-									przypadkiem dzięki projektowi, niektórzy są partnerami,
-									niektórzy przyjaciółmi. Lubimy gry, rysować, interesuje nas
-									psychologia, czy nurkowanie, jesteśmy aspirującymi przyszłymi
-									menedżerami, artystami, bądź obecnymi pilnymi uczniami.
-									Jesteśmy też braćmi, siostrami, synami, córkami i przede
-									wszystkim przyjaciółmi. To co nas łączy to pasja, która
-									realizujemy poprzez samorządność – chęć zmieniania świata
-									dookoła nas na lepsze. Wiemy jednak, że siła zmiany jest jej
-									zasięg, dlatego sami nie naprawimy tego świata. Jako uczniowie
-									technikum informatyczno-mechatronicznego znamy wartość nowych
-									technologii i możliwości, jakich dostarczają, ale mimo to
-									uważamy że nic nie zastąpi spotkania twarzą w twarz, dlatego
-									zdecydowaliśmy się zorganizować konferencję.
+								• Rejestracja planowana jest do 28 lutego, bądź do czasu zgłoszenia się 30 szkół  
+								<br/>
+								• Zarówno rejestracja, jak i udział w konferencji są BEZPŁATNE i wymagają jedynie chęci do działania 🙂
+								<br/>
+								• Zarejestrować się można poprzez formularz dostępny w menu
 								</p>
 							</div>
 							<div className="faq-section">
-								<h3>Jakie są nasze cele?</h3>
+								<h3>Jakie są warunki rejestracji?</h3>
 								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-									Officiis atque officia culpa natus voluptatibus?
+								• Zgłosić się mogą jedynie szkoły ponadpodstawowe
+								<br/>
+								• Ograniczenie co do ilości osób to 3 osoby działające w samorządzie uczniowskim + opiekun SU + ewentualnie członek dyrekcji
+								<br/>
+								• Należy przynieść ze sobą jedynie dużo entuzjazmu
 								</p>
 							</div>
 							<div className="faq-section">
-								<h3>Co już zrobiliśmy?</h3>
+								<h3>Jak długo należy czekać na odpowiedź na zgłoszenie?</h3>
 								<p>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-									Officiis atque officia culpa natus voluptatibus?
+								Bilety otrzymasz natychmiast, lecz zastrzegamy sobie prawo do anulowania biletu w przypadku np. fake'owych danych podanych podczas rejestracji lub np. w przypadku zgłoszenia szkoły, która nie spełnia warunków rejestracji
+								</p>
+							</div>
+							<div className="faq-section">
+								<h3>Czy wszyscy zgłoszeni z jednej szkoły muszą zapisać się na ten sam panel?</h3>
+								<p>
+								Każda zgłoszona osoba zapisuję się na warsztaty według indywidualnych preferencji
+								</p>
+							</div>
+							<div className="faq-section">
+								<h3>Jak dojechać na miejsce Konferencji?</h3>
+								<p>
+								Szkoła znajduje się przy ul. Wiśniowej 56, w pobliżu stacji metra Pole Mokotowskie oraz przystanku autobusowego Wiśniowa.
 								</p>
 							</div>
 						</div>
