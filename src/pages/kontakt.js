@@ -57,7 +57,7 @@ const Contact = () => (
 								<article className="contact">
 									<img src={bareja}/>
 									<div>
-										<p>Jakub Bareja - Kierownik projektu</p>
+										<p>Kuba Bareja - Kierownik projektu</p>
 
 										<a href="mailto:kuba.bareja@wisniowasu.pl">
 											kuba.bareja@wisniowasu.pl
