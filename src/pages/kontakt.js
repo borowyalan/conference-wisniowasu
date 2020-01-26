@@ -36,7 +36,7 @@ const Contact = () => (
 									</a>
 								</div>
 								<hr></hr>
-								<article>
+								<article className="contact">
 									<img src={julka}/>
 									<div>
 										<p>
@@ -54,7 +54,7 @@ const Contact = () => (
 									</div>
 								</article>
 								<hr></hr>
-								<article>
+								<article className="contact">
 									<img src={bareja}/>
 									<div>
 										<p>Jakub Bareja - Kierownik projektu</p>
@@ -69,7 +69,7 @@ const Contact = () => (
 									</div>
 								</article>
 								<hr></hr>
-								<article>
+								<article className="contact">
 									<img src={rogal}/>
 									<div>									
 										<p>
@@ -85,7 +85,7 @@ const Contact = () => (
 									</div>
 								</article>
 								<hr></hr>
-								<article>
+								<article className="contact">
 									<img src={kamila}/>
 									<div>
 										<p>
@@ -102,7 +102,7 @@ const Contact = () => (
 									</div>
 								</article>
 								<hr></hr>
-								<article>
+								<article className="contact">
 									<img src={kuba}/>
 									<div>
 										<p>Jakub Mrozicki - Koordynator działu merytorycznego</p>

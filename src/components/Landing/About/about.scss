@@ -1,5 +1,10 @@
 @import "~bulma/sass/utilities/mixins.sass";
 
+article.media
+{
+	flex-wrap: wrap;
+}
+
 #about {
 	margin-bottom: 5rem;
 
