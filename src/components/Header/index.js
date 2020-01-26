@@ -5,23 +5,9 @@ import logo from "../../images/logo.png"
 
 import "../../pages/mystyles.scss"
 import "./header.scss"
-import Helmet from "react-helmet"
-import Script from "react-inline-script"
-import "../../modules/eventbrite"
 
 function Header({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)
-	var exampleCallback = function() {
-		console.log('Order complete!');
-	};
-  
-	window.EBWidgets.createWidget({
-		widgetType: 'checkout',
-		eventId: '90880866117',
-		modal: true,
-		modalTriggerElementId: 'eventbrite-widget-modal-trigger-90880866117',
-		onOrderComplete: exampleCallback
-	});
 
 	return (
 		<section id="header" className="section">
@@ -50,7 +36,6 @@ function Header({ siteTitle }) {
 								<Link to="/o-nas" className="navbar-item">
 									O nas
 								</Link>
-								<button id="eventbrite-widget-modal-trigger-90880866117" type="button">Buy Tickets</button>
 								<Link to="/program" className="navbar-item">
 									Program
 								</Link>

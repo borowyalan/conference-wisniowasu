@@ -22,7 +22,7 @@ const FAQPage = () => (
 								<br/>
 								• Zarówno rejestracja, jak i udział w konferencji są BEZPŁATNE i wymagają jedynie chęci do działania 🙂
 								<br/>
-								• Zarejestrować się można poprzez formularz dostępny w menu
+								• Zarejestrować się można <a href="https://konferencja2020.eventbrite.com">tu</a>
 								</p>
 							</div>
 							<div className="faq-section">
