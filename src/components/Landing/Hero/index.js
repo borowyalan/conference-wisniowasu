@@ -15,12 +15,12 @@ export default function index() {
 								</h1>
 								<h2 className="is-size-4-mobile">Konferencja Samorządów Warszawskich</h2>
 								<h3>04.03.2019 r.</h3>
-								<Link
+								<a
 									className="button is-primary is-large heroButton"
-									to="/o-nas"
+									href="https://konferencja2020.eventbrite.com"
 								>
-									Dowiedz się więcej
-								</Link>
+									Zarejestruj się
+								</a>
 							</div>
 						</div>
 					</div>

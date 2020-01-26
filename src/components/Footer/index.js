@@ -10,8 +10,8 @@ import "./footer.scss"
 function Footer({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)
 	return (
-		<footer id="footer" class="footer">
-			<div class="content">
+		<footer id="footer" className="footer">
+			<div className="content">
 				<div className="columns">
 					<div className="column is-half">
 						<ul>
@@ -33,13 +33,13 @@ function Footer({ siteTitle }) {
 					</div>
 					<div className="column is-half second-column">
 						<ul>
-						<li class="poweredby">
+						<li className="poweredby">
 								<span>powered by</span>
 								<a href="https://wisniowasu.pl" target="_blank"><
-									img class="logo" src={logo_title}/>
+									img className="logo" src={logo_title}/>
 								</a>
 							</li>
-							<hr class="second-divider"></hr>
+							<hr className="second-divider"></hr>
 							<li>
 								Icons made by{" "}
 								<a

@@ -38,47 +38,47 @@ export default function index({ isModalOpen }) {
 
 	return (
 		<section id="form" className="section">
-			<form class="form-horizontal" onSubmit={handleSubmit}>
-				<fieldset class="box">
+			<form className="form-horizontal" onSubmit={handleSubmit}>
+				<fieldset className="box">
 					<legend>Kontakt</legend>
 
 					{/* Example */}
-					{/* <div class="field">
-						<label class="label">Username</label>
-						<div class="control has-icons-left has-icons-right">
+					{/* <div className="field">
+						<label className="label">Username</label>
+						<div className="control has-icons-left has-icons-right">
 							<input
-								class="input is-success"
+								className="input is-success"
 								type="text"
 								placeholder="Text input"
 								value="bulma"
 							/>
-							<span class="icon is-small is-left">
+							<span className="icon is-small is-left">
 								<i>
 									<FontAwesomeIcon icon={faUser} />
 								</i>
 							</span>
-							<span class="icon is-small is-right">
-								<i class="fas fa-check"></i>
+							<span className="icon is-small is-right">
+								<i className="fas fa-check"></i>
 							</span>
 						</div>
-						<p class="help is-success">This username is available</p>
+						<p className="help is-success">This username is available</p>
 					</div> */}
 
 					{/* Name */}
-					<div class="field">
-						<label class="label" for="name">
+					<div className="field">
+						<label className="label" htmlFor="name">
 							Imię i Nazwisko
 						</label>
-						<div class="control has-icons-left">
+						<div className="control has-icons-left">
 							<input
 								id="name"
 								name="name"
 								type="text"
 								placeholder="Jan Kowalski"
-								class="input"
+								className="input"
 								required=""
 							/>
-							<span class="icon is-small is-left">
+							<span className="icon is-small is-left">
 								<i>
 									<FontAwesomeIcon icon={faUser} />
 								</i>
@@ -87,20 +87,20 @@ export default function index({ isModalOpen }) {
 					</div>
 
 					{/* E-mail */}
-					<div class="field">
-						<label class="label" for="email">
+					<div className="field">
+						<label className="label" htmlFor="email">
 							Adres e-mail
 						</label>
-						<div class="control has-icons-left">
+						<div className="control has-icons-left">
 							<input
 								id="email"
 								name="email"
 								type="text"
 								placeholder="jankowalski@yahoo.com"
-								class="input"
+								className="input"
 								required=""
 							/>
-							<span class="icon is-small is-left">
+							<span className="icon is-small is-left">
 								<i>
 									<FontAwesomeIcon icon={faEnvelope} />
 								</i>
@@ -109,20 +109,20 @@ export default function index({ isModalOpen }) {
 					</div>
 
 					{/* Title */}
-					<i class="field">
-						<label class="label" for="title">
+					<i className="field">
+						<label className="label" htmlFor="title">
 							Tytuł wiadomości
 						</label>
-						<i class="control has-icons-left">
+						<i className="control has-icons-left">
 							<input
 								id="title"
 								name="title"
 								type="text"
 								placeholder="Tytuł"
-								class="input"
+								className="input"
 								required=""
 							/>
-							<span class="icon is-small is-left">
+							<span className="icon is-small is-left">
 								<i>
 									<FontAwesomeIcon icon={faEnvelope} />
 								</i>
@@ -131,13 +131,13 @@ export default function index({ isModalOpen }) {
 					</i>
 
 					{/* Message */}
-					<div class="field">
-						<label class="label" for="message">
+					<div className="field">
+						<label className="label" htmlFor="message">
 							Wiadomość
 						</label>
-						<div class="control">
+						<div className="control">
 							<textarea
-								class="textarea"
+								className="textarea"
 								id="message"
 								name="message"
 								placeholder="..."
@@ -146,13 +146,13 @@ export default function index({ isModalOpen }) {
 					</div>
 
 					{/* Submit Button */}
-					<div class="field">
-						<label class="label" for="submit"></label>
-						<div class="control">
+					<div className="field">
+						<label className="label" htmlFor="submit"></label>
+						<div className="control">
 							<button
 								id="submit"
 								name="submit"
-								class="button is-success"
+								className="button is-success"
 								onClick={() => isModalOpen(true)}
 							>
 								Wyślij

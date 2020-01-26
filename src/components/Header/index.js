@@ -8,6 +8,7 @@ import "./header.scss"
 
 function Header({ siteTitle }) {
 	const [isActive, setBurgerActive] = useState(false)
+
 	return (
 		<section id="header" className="section">
 			<div className="container">

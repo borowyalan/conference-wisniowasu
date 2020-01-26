@@ -5,7 +5,7 @@ export default function Card(props) {
 		<div className="box">
 			<article className="media">
 				<div className="media-left">
-					<img src={props.icon} alt="" srcset="" />
+					<img src={props.icon} alt="" srcSet="" />
 				</div>
 				<div className="media-content">
 					<div className="content">
