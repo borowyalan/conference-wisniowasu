@@ -14,7 +14,7 @@ export default function index() {
 									Porozmawiajmy o&nbsp;aktywności społecznej i&nbsp;edukacji.
 								</h1>
 								<h2 className="is-size-4-mobile">Konferencja Samorządów Warszawskich</h2>
-								<h3>04.03.2019 r.</h3>
+								<h3>04.03.2020 r.</h3>
 								<a
 									className="button is-primary is-large heroButton"
 									href="https://konferencja2020.eventbrite.com"
