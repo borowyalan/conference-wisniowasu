@@ -100,13 +100,12 @@ const program = () => (
 										wymiana doświadczeń między samorządem z Wiśniowej a zaproszonymi przedstawicielami samorządów innych szkół warszawskich, przestrzeń do dyskusji dla młodzieży (nasze osiągnięcia).
 									</div>
 									<div className="program_option">
-										<strong>Warsztaty dla opiekunów SU (we współpracy z fundacją Civis Polonus)</strong>
-									</div>
-									<div className="program_option">
 										<strong>Finansowanie działań SU</strong><br/>
 										Projektowe wdrażanie inicjatyw uczniowskich z nastawieniem na pozyskiwanie budżetu. Jak zdobyć środki na działania Samorządu Uczniowskiego z wykorzystaniem programów przygotowanych przez miasto? (we współpracy z Centrum Komunikacji Społecznej)
 									</div>
-									
+									<div className="program_option">
+										<strong>Warsztaty dla opiekunów SU (we współpracy z fundacją Civis Polonus)</strong>
+									</div>
 								</div>
 								<div className="program_timespan_text one">
 									13.00 - 13.30
