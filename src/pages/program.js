@@ -77,27 +77,27 @@ const program = () => (
 										<strong>Jak być liderem, a może przywódcą zespołu współpracowników?</strong><br/>
 									</div>
 									<div className="program_option">
-										<strong>Wykorzystywanie mediów społecznościowych w pracy SU.</strong><br/>
+										<strong>Wykorzystywanie mediów społecznościowych w pracy SU</strong><br/>
 									</div>
 									<div className="program_option">
 										<strong>Wybory na przewodniczącego SU i prowadzenie kampanii wyborczej</strong><br/>
-										przykłady kampanii wyborczych, jak powinna wyglądać, jakich błędów unikać, na jakie niebezpieczeństwa trzeba być gotowym, jak dobrze przygotować się do kampanii (sekcja prawna SU we współpracy z fundacją Civis Polonus).
+										Przykłady kampanii wyborczych, jak powinna wyglądać, jakich błędów unikać, na jakie niebezpieczeństwa trzeba być gotowym, jak dobrze przygotować się do kampanii (sekcja prawna SU we współpracy z fundacją Civis Polonus).
 									</div>
 									<div className="program_option">
 										<strong>Technologia w służbie SU</strong><br/>
-										narzędzia i metody pracy z wykorzystaniem technik, z których na co dzień korzystamy w życiu szkolnym (sekcja techniczna SU).
+										Narzędzia i metody pracy z wykorzystaniem technik, z których na co dzień korzystamy w życiu szkolnym (sekcja techniczna SU).
 									</div>
 									<div className="program_option">
 										<strong>Organizacja pracy SU w szkole</strong><br/>
-										jak sprawnie zarządzać ludźmi tak, aby zwyczajnie wszystko działało (sekcja organizacyjna SU we współpracy z Centrum Komunikacji Społecznej).
+										Jak sprawnie zarządzać ludźmi tak, aby zwyczajnie wszystko działało (sekcja organizacyjna SU we współpracy z Centrum Komunikacji Społecznej).
 									</div>
 									<div className="program_option">
 										<strong>Krok pierwszy - jak rozkręcić SU?</strong><br/>
-										pierwsze kroki, rozmowa z publicznością na temat problemów w zarządzaniu samorządem, jak budować relacje z dorosłymi - nauczycielami, dyrekcją, rodzicami? (we współpracy z absolwentem szkoły)
+										Pierwsze kroki, rozmowa z publicznością na temat problemów w zarządzaniu samorządem, jak budować relacje z dorosłymi - nauczycielami, dyrekcją, rodzicami? (we współpracy z absolwentem szkoły)
 									</div>
 									<div className="program_option">
 										<strong>Realne zmiany w szkole dzięki SU</strong><br/>
-										wymiana doświadczeń między samorządem z Wiśniowej a zaproszonymi przedstawicielami samorządów innych szkół warszawskich, przestrzeń do dyskusji dla młodzieży (nasze osiągnięcia).
+										Wymiana doświadczeń między samorządem z Wiśniowej a zaproszonymi przedstawicielami samorządów innych szkół warszawskich, przestrzeń do dyskusji dla młodzieży (nasze osiągnięcia).
 									</div>
 									<div className="program_option">
 										<strong>Finansowanie działań SU</strong><br/>
