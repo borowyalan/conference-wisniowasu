@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
 #hero.section {
-	@include touch {
-		height: 78vmax;
-	}
+	// @include touch {
+	// 	height: 78vmax;
+	// }
 
 	.hero {
 		width: 90%;
@@ -32,6 +32,14 @@
 
 			button {
 				color: white;
+				
+			}
+			a
+			{
+				width: 200px;
+			}
+			a.linkButton {
+				margin-top: 0.5rem;
 			}
 		}
 	}

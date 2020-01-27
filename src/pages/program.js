@@ -51,7 +51,7 @@ const program = () => (
 									</div>
 									<div className="program_option">
 										<strong>Internet trzepakiem XXI wieku</strong><br/>
-										czyli jaki wpływ na człowieka ma wypieranie spotkań towarzyskich przez media społecznościowe i w jaki sposób ewoluują media (fundacja Nowy Głos).
+										czyli jaki wpływ na człowieka ma wypieranie spotkań towarzyskich przez media społecznościowe i w jaki sposób ewoluują media.
 									</div>
 									<div className="program_option">
 										<strong>Szkoła Impro</strong><br/>

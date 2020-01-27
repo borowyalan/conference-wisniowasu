@@ -21,6 +21,13 @@ export default function index() {
 								>
 									Zarejestruj się
 								</a>
+								<br/>
+								<a
+									className="button is-white is-medium linkButton"
+									target="_blank" href="https://links.wisniowasu.pl/pasje2020yt"
+								>
+									Zobacz film
+								</a>
 							</div>
 						</div>
 					</div>

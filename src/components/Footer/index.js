@@ -16,19 +16,19 @@ function Footer({ siteTitle }) {
 					<div className="column is-half">
 						<ul>
 							<li>
-								<a href="https://wisniowasu.pl">Strona SU</a>
+								<a target="_blank" href="https://wisniowasu.pl">Strona SU</a>
 							</li>
 							<li>
-								<a href="https://www.facebook.com/wisniowa56/">Facebook</a>
+								<a target="_blank" href="https://www.facebook.com/wisniowa56/">Facebook</a>
 							</li>
 							<hr></hr>
 							<li>
-								Author: <a href="https://borowyalan.com">Borowy Alan</a>
+								Made by: <a target="_blank" href="https://borowyalan.com">Borowy Alan</a>
 							</li>
 							<li>
-								Got any feedback? Contact me via:{" "}
-								<a href="mailto:borowyalan@gmail.com">borowyalan@gmail.com</a>
+								Source code: <a target="_blank" href="https://github.com/borowyalan/conference-wisniowasu">GitHub</a>
 							</li>
+							<br/>
 						</ul>
 					</div>
 					<div className="column is-half second-column">
