@@ -1,0 +1,41 @@
+section#partners
+{
+    padding-bottom: 120px;
+}
+
+div.partners
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .gatsby-image-wrapper
+    {
+        max-width: 200px !important;
+        margin: 20px;
+        img
+        {
+            filter: grayscale(1);
+            object-fit: contain !important;
+            transition: opacity 500ms ease 0s, filter 0.1s ease-in-out !important;
+        }
+        img:hover
+        {
+            filter: grayscale(0);
+
+        }
+
+        &.invert
+        {
+            img
+            {
+                filter: grayscale(1) invert(1);
+            }
+            img:hover
+            {
+                filter: grayscale(0) invert(1);
+            }
+        }
+    }
+}

@@ -7,6 +7,7 @@ import About from "../components/Landing/About"
 import Form from "../components/Landing/Form"
 import Popup from "../components/Landing/Popup"
 import FormModal from "../components/Landing/FormModal"
+import Partners from "../components/Landing/Partners"
 
 export default function IndexPage() {
 	const [isModalOpen, changeModalState] = useState(false)
@@ -15,6 +16,7 @@ export default function IndexPage() {
 			<SEO title="Strona główna" />
 			<Hero></Hero>
 			<About></About>
+			<Partners></Partners>
 			<Form isModalOpen={changeModalState}></Form>
 			<FormModal
 				changeModalState={changeModalState}
