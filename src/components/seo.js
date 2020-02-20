@@ -42,7 +42,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: "Konferencja P.ASJE |" + title,
+          content: "Konferencja P.ASJE | " + title,
         },
         {
           property: `og:image`,
