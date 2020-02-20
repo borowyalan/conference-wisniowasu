@@ -96,10 +96,6 @@ const program = () => (
 										Pierwsze kroki, rozmowa z publicznością na temat problemów w zarządzaniu samorządem, jak budować relacje z dorosłymi - nauczycielami, dyrekcją, rodzicami? (we współpracy z absolwentem szkoły)
 									</div>
 									<div className="program_option">
-										<strong>Realne zmiany w szkole dzięki SU</strong><br/>
-										Wymiana doświadczeń między samorządem z Wiśniowej a zaproszonymi przedstawicielami samorządów innych szkół warszawskich, przestrzeń do dyskusji dla młodzieży (nasze osiągnięcia).
-									</div>
-									<div className="program_option">
 										<strong>Finansowanie działań SU</strong><br/>
 										Projektowe wdrażanie inicjatyw uczniowskich z nastawieniem na pozyskiwanie budżetu. Jak zdobyć środki na działania Samorządu Uczniowskiego z wykorzystaniem programów przygotowanych przez miasto? (we współpracy z Centrum Komunikacji Społecznej)
 									</div>
