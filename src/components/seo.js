@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: BG,
+          content: "https://dev_pasje.wisniowasu.pl" + BG,
         },
         {
           property: `og:description`,
