@@ -1,7 +1,7 @@
 module.exports = {
 	siteMetadata: {
 		title: `Konferencja Samorządów Warszawskich | Wiśniowa SU`,
-		description: 'Porozmawiajmy o aktywności społecznej i edukacji. 04.03.2020 r.',
+		description: 'Porozmawiajmy o aktywności społecznej i edukacji - 04.03.2020 r.',
 		author: `@Borowy Alan`,
 	},
 	plugins: [

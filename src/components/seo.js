@@ -42,11 +42,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: "Konferencja P.ASJE |" + title,
         },
         {
           property: `og:image`,
-          content: "https://dev_pasje.wisniowasu.pl" + BG,
+          content: "https://pasje.wisniowasu.pl" + BG,
         },
         {
           property: `og:description`,
