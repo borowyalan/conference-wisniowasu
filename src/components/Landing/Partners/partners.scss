@@ -1,6 +1,13 @@
 section#partners
 {
     padding-bottom: 120px;
+    div.container
+    {    
+        .title
+        {
+            font-family: "Nunito", sans-serif;
+        }
+    }
 }
 
 div.partners
@@ -10,6 +17,7 @@ div.partners
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 40px;
     .gatsby-image-wrapper
     {
         max-width: 200px !important;
