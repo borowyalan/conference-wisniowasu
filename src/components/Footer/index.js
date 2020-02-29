@@ -23,7 +23,7 @@ function Footer({ siteTitle }) {
 							</li>
 							<hr></hr>
 							<li>
-								Made by: <a target="_blank" href="https://borowyalan.com">Borowy Alan</a>
+								Made by: <a target="_blank" href="https://borowyalan.com">Borowy Alan</a> and <a target="_blank" href="https://github.com/fastfend">Piotr Stadnicki</a>
 							</li>
 							<li>
 								Source code: <a target="_blank" href="https://github.com/borowyalan/conference-wisniowasu">GitHub</a>
