@@ -113,13 +113,6 @@ export default () => (
 			  	}
 			}
 		}
-		wsm: file(relativePath: { eq: "partners/wsm.png" }) {
-			childImageSharp {
-				fixed(height: 80, quality: 100) {
-					...GatsbyImageSharpFixed
-			  	}
-			}
-		}
 	  }
 	`}
     render={data => (
@@ -152,7 +145,6 @@ export default () => (
 					<Img fixed={data.impro.childImageSharp.fixed}/>
 					<Img fixed={data.sdz.childImageSharp.fixed}/>
 					<Img fixed={data.zww.childImageSharp.fixed}/>
-					<Img fixed={data.wsm.childImageSharp.fixed}/>
 				</div>
 			</div>
 		</section>
