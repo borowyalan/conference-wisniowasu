@@ -100,11 +100,19 @@ const program = () => (
 									</div>
 								</div>
 								<div className="program_timespan_text one">
-									13.00 - 13.30
+									13.00 - 13.20
 								</div>
 								<div className="program_timespan_content">
 									<div className="program_option program_topic">
 										Podsumowanie konferencji
+									</div>
+								</div>
+								<div className="program_timespan_text four">
+									13.20 - 14.00
+								</div>
+								<div className="program_timespan_content">
+									<div className="program_option program_topic">
+										Lunch dla uczestników
 									</div>
 								</div>
 							</div>
