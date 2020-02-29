@@ -84,10 +84,6 @@ const program = () => (
 										Przykłady kampanii wyborczych, jak powinna wyglądać, jakich błędów unikać, na jakie niebezpieczeństwa trzeba być gotowym, jak dobrze przygotować się do kampanii (sekcja prawna SU we współpracy z fundacją Civis Polonus).
 									</div>
 									<div className="program_option">
-										<strong>Technologia w służbie SU</strong><br/>
-										Narzędzia i metody pracy z wykorzystaniem technik, z których na co dzień korzystamy w życiu szkolnym (sekcja techniczna SU).
-									</div>
-									<div className="program_option">
 										<strong>Organizacja pracy SU w szkole</strong><br/>
 										Jak sprawnie zarządzać ludźmi tak, aby zwyczajnie wszystko działało (sekcja organizacyjna SU we współpracy z Centrum Komunikacji Społecznej).
 									</div>
