@@ -17,9 +17,9 @@ export default function index() {
 								<h3>04.03.2020 r.</h3>
 								<a
 									className="button is-primary is-large heroButton"
-									href="https://konferencja2020.eventbrite.com"
+									href="https://links.wisniowasu.pl/konferencja_ankieta"
 								>
-									Zarejestruj się
+									Wypełnij ankietę
 								</a>
 								<br/>
 								<a
