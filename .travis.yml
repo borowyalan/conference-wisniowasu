@@ -12,6 +12,6 @@ install:
 script:
   - yarn build
 node_js:
-  - 13
+  - 13.9
 after_success:
   - bash travis_build.sh
