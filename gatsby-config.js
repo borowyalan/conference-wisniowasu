@@ -1,24 +1,23 @@
 module.exports = {
 	siteMetadata: {
 		title: `Konferencja Samorządów Warszawskich | Wiśniowa SU`,
-		description: 'Porozmawiajmy o aktywności społecznej i edukacji - 04.03.2020 r.',
+		description: `Porozmawiajmy o aktywności społecznej i edukacji - 04.03.2020 r.`,
 		author: `@Borowy Alan`,
+		siteUrl: `https://pasje.wisniowasu.pl`,
 	},
 	plugins: [
 		{
 			resolve: `gatsby-plugin-google-gtag`,
 			options: {
-			  // You can add multiple tracking ids and a pageview event will be fired for all of them.
-			  trackingIds: [
-				"UA-156094275-2"
-			  ],
-			  gtagConfig: {
-				anonymize_ip: true,
-				cookie_expires: 0,
-			  },
-			  pluginConfig: {
-				head: true,
-			  },
+				// You can add multiple tracking ids and a pageview event will be fired for all of them.
+				trackingIds: [`UA-156094275-2`],
+				gtagConfig: {
+					anonymize_ip: true,
+					cookie_expires: 0,
+				},
+				pluginConfig: {
+					head: true,
+				},
 			},
 		},
 		`gatsby-plugin-sass`,
@@ -44,6 +43,8 @@ module.exports = {
 				icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
 			},
 		},
+		`gatsby-plugin-sitemap`,
+
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline
 		// `gatsby-plugin-offline`,
