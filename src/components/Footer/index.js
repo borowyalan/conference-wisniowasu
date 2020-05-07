@@ -16,27 +16,49 @@ function Footer({ siteTitle }) {
 					<div className="column is-half">
 						<ul>
 							<li>
-								<a target="_blank" href="https://wisniowasu.pl">Strona SU</a>
+								<a target="_blank" href="https://wisniowasu.pl">
+									Strona SU
+								</a>
 							</li>
 							<li>
-								<a target="_blank" href="https://www.facebook.com/wisniowa56/">Facebook</a>
+								<a target="_blank" href="https://status.wisniowasu.pl">
+									Status usług Wiśniowa SU
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://www.facebook.com/wisniowa56/">
+									Facebook
+								</a>
 							</li>
 							<hr></hr>
 							<li>
-								Made by: <a target="_blank" href="https://borowyalan.com">Borowy Alan</a> and <a target="_blank" href="https://github.com/fastfend">Piotr Stadnicki</a>
+								Made by:{" "}
+								<a target="_blank" href="https://borowyalan.com">
+									Borowy Alan
+								</a>{" "}
+								and{" "}
+								<a target="_blank" href="https://github.com/fastfend">
+									Piotr Stadnicki
+								</a>
 							</li>
 							<li>
-								Source code: <a target="_blank" href="https://github.com/borowyalan/conference-wisniowasu">GitHub</a>
+								Source code:{" "}
+								<a
+									target="_blank"
+									href="https://github.com/borowyalan/conference-wisniowasu"
+								>
+									GitHub
+								</a>
 							</li>
-							<br/>
+							<br />
 						</ul>
 					</div>
 					<div className="column is-half second-column">
 						<ul>
-						<li className="poweredby">
+							<li className="poweredby">
 								<span>powered by</span>
-								<a href="https://wisniowasu.pl" target="_blank"><
-									img className="logo" src={logo_title}/>
+								<a href="https://wisniowasu.pl" target="_blank">
+									<img className="logo" src={logo_title} />
 								</a>
 							</li>
 							<hr className="second-divider"></hr>
